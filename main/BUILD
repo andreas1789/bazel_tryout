@@ -1,13 +1,18 @@
 cc_library(
-    name = "hello-world",
-    srcs = ["file1.cpp"],
-    hdrs = ["file1.h"],
+    name = "text-func",
+    srcs = ["func.cpp"],
+)
+
+cc_library(
+    name = "fixed-text",
+    srcs = ["file1.h"],
 )
 
 cc_binary(
-    name = "binary",
-    srcs = ["func.cpp"],
+    name = "text-writer",
+    srcs = ["file1.cpp"],
     deps = [
-        ":hello-world",
+        ":text-func",
+        ":fixed-text",
     ],
 )
