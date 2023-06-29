@@ -17,3 +17,13 @@ cc_binary(
         "//lib:number-func",
     ],
 )
+
+cc_binary(
+    name = "text-writer2",
+    srcs = ["file1.cpp"],
+    deps = [
+        ":text-func",
+        ":fixed-text",
+        "//lib:number-func2",
+    ],
+)
