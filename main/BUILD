@@ -14,5 +14,6 @@ cc_binary(
     deps = [
         ":text-func",
         ":fixed-text",
+        "//lib:number-func",
     ],
 )
