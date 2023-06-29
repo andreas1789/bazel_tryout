@@ -1,0 +1,1 @@
+char text[] = "Das ist mein Text";
