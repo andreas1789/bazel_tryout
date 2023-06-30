@@ -1,3 +1,15 @@
+load("//scripts:message.bzl", "printer")
+
+printer(
+    name = "msg1",
+    msg = "Welcome to my Bazel Tryout",
+    )
+
+printer(
+    name = "msg2",
+    msg = "This is a message",
+    )
+
 cc_library(
     name = "text-func",
     srcs = ["func.cpp"],
@@ -5,7 +17,7 @@ cc_library(
 
 cc_library(
     name = "fixed-text",
-    srcs = ["file1.h"],
+    srcs = ["file1.hpp"],
 )
 
 cc_binary(

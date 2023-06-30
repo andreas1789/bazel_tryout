@@ -1,5 +1,5 @@
 #include <iostream>
-#include "file1.h"
+#include "file1.hpp"
 
 extern std::string get_text();
 extern int get_number();
