@@ -10,10 +10,10 @@ printer = rule (
 )
 // change
 
-// all resolved
-
 // change on main
 // 1
 // 2
 // 3
+
+// all resolved
 
