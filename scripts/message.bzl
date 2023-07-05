@@ -1,5 +1,5 @@
 def _printer_impl(ctx):
-    print("analyzing", ctx.label) # comment
+    print("analyzing", ctx.label) # comment2
     print(ctx.label, ctx.attr.msg)
 
 printer = rule (
