@@ -11,5 +11,3 @@ int main()
     std::cout << get_number() << "\n";
     return 0;
 }
-
-// this change is needed
