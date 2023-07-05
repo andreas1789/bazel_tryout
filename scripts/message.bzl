@@ -8,12 +8,5 @@ printer = rule (
         "msg": attr.string(),
     },
 )
-// change
 
-// change on main
-// 1
-// 2
-// 3
-
-// all resolved
 
